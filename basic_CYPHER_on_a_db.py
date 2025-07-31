@@ -39,7 +39,6 @@ def print_n_nodes(n):
         print()
 
 # Look for a specific node by hlink
-
 def find_node_by_hlink(hyperlink):
     cypher = """
     MATCH (n)
